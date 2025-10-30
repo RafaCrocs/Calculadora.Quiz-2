@@ -37,9 +37,10 @@
                 default:
                     Console.WriteLine("Operación no válida.");
                     return;
-                Console.WriteLine("El resultado es: " + resultado);
-                Console.WriteLine("Gracias... ¡Hasta luego!");
             }
+            Console.WriteLine($"El resultado es: {resultado}");
+            Console.WriteLine("Gracias... ¡Hasta luego!");
+            
         }
     }
 }
