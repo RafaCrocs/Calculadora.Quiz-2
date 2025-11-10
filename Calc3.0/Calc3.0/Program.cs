@@ -27,7 +27,7 @@
                     case '/':
                         if (num2 != 0)
                         {
-                            Console.WriteLine($"El resultado de la división es: {num1 / num2}");
+                            Console.WriteLine($"El resultado de la división es: {Math.Round(num1 / num2, 2)}");
                         }
                         else
                         {
